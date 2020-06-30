@@ -5,9 +5,9 @@
 
 # Site
 title: huhao's Blogs
-subtitle:
-description:
-author: 胡浩 
+subtitle: Way of CS ...
+description: 命运——这个世界上的另一位神，只愿意用热烈的双臂把勇敢者高高举起，送上英雄们的天堂。
+author: huhao 
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+# avatar: 
 
 
 # Table Of Contents in the Sidebar
