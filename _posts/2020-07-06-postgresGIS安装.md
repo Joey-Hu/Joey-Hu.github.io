@@ -6,6 +6,8 @@ categories:
 tags: postGIS
 ---
 
+## PostgreSQL安装
+
 ### 一、 下载安装
 
 postgreSQL下载地址： https://www.enterprisedb.com/downloads/postgres-postgresql-downloads 
