@@ -6,9 +6,7 @@ categories:
 tags: postGIS
 ---
 
-## PostgreSQL安装
-
-### 1. 下载安装
+### 一、 下载安装
 
 postgreSQL下载地址： https://www.enterprisedb.com/downloads/postgres-postgresql-downloads 
 
@@ -22,7 +20,7 @@ postgreSQL安装步骤可以设置一路默认，设置好管理员密码，端�
 
 
 
-### 2. 安装stack builder
+### 二、 安装stack builder
 
 PostgreSQL安装完成后，出现以下界面，勾选选择安装stack builder(或者在postgreSQL目录打开)
 
