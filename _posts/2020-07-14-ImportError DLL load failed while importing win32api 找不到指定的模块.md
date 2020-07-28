@@ -5,7 +5,7 @@ categories:
  - Python
 tags: errors
 ---
-## ImportError: DLL load failed while importing win32api: 找不到指定的模块
+
 
 前几天在尝试打开jupyter lab是报以下错误：
 

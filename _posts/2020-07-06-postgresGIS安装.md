@@ -6,7 +6,7 @@ categories:
 tags: postGIS
 ---
 
-## PostgreSQL安装
+
 
 ### 一、 下载安装
 
