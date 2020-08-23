@@ -1,35 +1,32 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+title: huhao's Blogs
+description: 命运——这个世界上的另一位神，只愿意用热烈的双臂把勇敢者高高举起，送上英雄们的天堂。
 
-# Setup
-title:            huhao's Blogs
-tagline:          'A Jekyll theme'
-description:      'Way of CS ...'
-url:              https://joey-hu.github.io
-baseurl:          
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+url: http://joey-hu.github.com/long-haul
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-author:
-  name:           'huhao'
-  url:            https://github.com/Joey-Hu
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+social:
+  github: http://joey-hu.github.com
+  twitter: brianmaierjr
+  facebook: brianmaierjr
+  email: brimaidesigns@gmail.com
+  linkedin: brianmaierjr
 
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: my-disqus-shortname
